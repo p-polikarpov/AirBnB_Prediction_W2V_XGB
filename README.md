@@ -7,18 +7,9 @@ Based on the available training set and acquired external data, I created a data
 Notebook follows the structure below:
 1. Introduction
 2. Importing data
-3. EDA, data cleaning and preprocessing
-3.1. Numerical features
-3.2. Categorical features
-3.3. Datetime & Location features
-3.4. Text features (Word2Vec)
+3. EDA, data cleaning and preprocessing - Numerical features, Categorical features, Datetime & Location features, Text features (Word2Vec)
 4. Feature selection using F-test
-5. Benchmark models
-5.1. Linear Regression
-5.2. Random Forest Regressor
-6. Final model - XGBRegressor
-6.1. 5-fold Cross-Validation
-6.2. Predictions on training dataset
-6.3. Feature inspection
+5. Benchmark models - Linear Regression, Random Forest Regressor
+6. Final model (XGBRegressor) - 5-fold Cross-Validation, Predictions on training dataset
 7. Predictions on test data
 8. Conclusion
